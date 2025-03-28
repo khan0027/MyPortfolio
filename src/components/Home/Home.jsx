@@ -11,7 +11,7 @@ const Home = () => {
                 Hello' this is Md Saqulain
             </h1>
             <p className='text-sm md:text-2xl tracking-tight ' >
-                I'm final year engineering student and Frontend Developer
+                I'm final year engineering student and a Frontend Developer
             </p>
             <button className='mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg 
                 md:py-2 md:px-4 hover:opacity-85 hover:scale-105 font-semibold rounded-3xl
@@ -22,7 +22,7 @@ const Home = () => {
             
         </div>
         <div className='' >
-            <img src={myImage} alt="My Image" className='md:w-2/4 md:h-auto  ' />
+            <img src={myImage} alt="My Image" className='md:w-80 md:h-80 md:rounded-full max-sm:w-0 max-sm:h-0 ' />
         </div>
 
     </div>
