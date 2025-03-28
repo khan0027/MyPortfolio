@@ -32,7 +32,7 @@ const Navbar = () => {
           </a>
           <a href="">
 
-              <li className='text-md transition-all duration-300 p-1 md:p-0' >Experience</li>
+              <li className='text-md transition-all duration-300 p-1 md:p-0' >Skills</li>
 
           </a>
           <a href="">
