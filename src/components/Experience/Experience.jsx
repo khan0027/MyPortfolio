@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaCss3,FaReact,FaHtml5,FaJs,FaNode } from 'react-icons/fa'
-import { SiMongodb,SiExpress,SiRedux } from 'react-icons/si'
+import { SiMongodb,SiExpress,SiRedux,SiThealgorithms } from 'react-icons/si'
+import { CiDatabase } from "react-icons/ci";
 import {TbBinaryTree} from 'react-icons/tb'
 import { BsPcDisplay } from "react-icons/bs";
 
@@ -41,7 +42,13 @@ const Experience = () => {
           <div className='flex  gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center ' >
             <TbBinaryTree  size={50} color="#fff"  /> 
             <span className='text-white text-2xl md:text-3xl '>
-              Data Structure and Algorithm
+              Data Structures
+            </span>
+          </div>
+          <div className='flex  gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center ' >
+            <CiDatabase  size={50} color="#fff"  /> 
+            <span className='text-white text-2xl md:text-3xl '>
+              Database Management System
             </span>
           </div>
           <div className='flex  gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center ' >
@@ -51,15 +58,9 @@ const Experience = () => {
             </span>
           </div>
           <div className='flex  gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center ' >
-            <BsPcDisplay  size={50} color="#fff"  /> 
+            <SiThealgorithms  size={50} color="#fff"  /> 
             <span className='text-white text-2xl md:text-3xl '>
-              Operating System
-            </span>
-          </div>
-          <div className='flex  gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center ' >
-            <BsPcDisplay  size={50} color="#fff"  /> 
-            <span className='text-white text-2xl md:text-3xl '>
-              Operating System
+              Algorithms
             </span>
           </div>
           </div>
