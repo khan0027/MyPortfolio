@@ -40,25 +40,25 @@ const Experience = () => {
 
           <div  >
           <div className='flex  gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center ' >
-            <TbBinaryTree  size={50} color="#fff"  /> 
+            <TbBinaryTree  size={50} color="violet"  /> 
             <span className='text-white text-2xl md:text-3xl '>
               Data Structures
             </span>
           </div>
           <div className='flex  gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center ' >
-            <CiDatabase  size={50} color="#fff"  /> 
+            <CiDatabase  size={50} color="blue"  /> 
             <span className='text-white text-2xl md:text-3xl '>
               Database Management System
             </span>
           </div>
           <div className='flex  gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center ' >
-            <BsPcDisplay  size={50} color="#fff"  /> 
+            <BsPcDisplay  size={50} color="orange"  /> 
             <span className='text-white text-2xl md:text-3xl '>
               Operating System
             </span>
           </div>
           <div className='flex  gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center ' >
-            <SiThealgorithms  size={50} color="#fff"  /> 
+            <SiThealgorithms  size={50} color="red"  /> 
             <span className='text-white text-2xl md:text-3xl '>
               Algorithms
             </span>
