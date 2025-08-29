@@ -1,5 +1,7 @@
 import { RiCloseLine, RiMenu2Line } from '@remixicon/react';
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom';
+
 
 const Navbar = () => {
 
@@ -25,26 +27,26 @@ const Navbar = () => {
         md:bg-transparent md:static md:mx-0 md:flex gap-6
         
         `}>
-          <a href="">
+          <NavLink to='/' className='' >
 
-              <li className='text-md transition-all duration-300 p-1 md:p-0' >About</li>
+              <li className='text-md transition-all duration-300 p-1 md:p-0   ' >Home</li>
 
-          </a>
-          <a href="">
+          </NavLink>
+          <NavLink to='/about'>
 
-              <li className='text-md transition-all duration-300 p-1 md:p-0' >Skills</li>
+              <li className='text-md transition-all duration-300 p-1 md:p-0   ' >About</li>
 
-          </a>
-          <a href="">
+          </NavLink>
+          <NavLink to='/skills'>
 
-              <li className='text-md transition-all duration-300 p-1 md:p-0' >Projects</li>
+              <li className='text-md transition-all duration-300 p-1 md:p-0   ' >Skills</li>
 
-          </a>
-          <a href="">
+          </NavLink>
+          <NavLink to='/contactme'>
 
-              <li className='text-md transition-all duration-300 p-1 md:p-0' >Contact</li>
+              <li className='text-md transition-all duration-300 p-1 md:p-0   ' >Contact</li>
 
-          </a>
+          </NavLink>
 
       </ul>
     
